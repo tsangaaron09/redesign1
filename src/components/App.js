@@ -3,7 +3,11 @@ import TabPanel from "./TabPanel";
 
 class App extends React.Component {
   render() {
-    return <TabPanel />;
+    return (
+      <div>
+        <TabPanel />
+      </div>
+    );
   }
 }
 export default App;
